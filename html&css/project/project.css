@@ -1,0 +1,244 @@
+body
+{
+    background: #333333;
+}
+#all
+{
+    width: 1250px;
+    border: cyan;
+    height: 100%;
+}
+.nav
+{
+    background: #333333;
+    height: 40px;
+    width: auto;
+    border:1px solid cyan;
+
+}
+a{
+    color: cyan;
+    float:left;
+}
+.input
+{
+    float: right;  
+    padding-right: 10px;
+    padding-top:1px ;
+    padding-bottom:1px ;
+}
+h3{
+    display: inline;
+    padding-top: 15px;
+    padding:5px 15px 0px 15px ;
+}
+.links
+{
+    display: inline;
+    padding-top: 15px;
+    padding:5px 15px 0px 15px ; 
+}
+.img
+{
+    height: 10px;
+    width: auto;
+}
+#box1
+{
+    background: cyan;
+    width: auto ;
+    height: 290px ;
+    padding: 5px ;
+    border-radius:10px ;
+    margin-left:250px ;
+    margin-top: 50px;
+    position: absolute;
+    z-index: 1;
+}
+#box2
+{
+    background: cyan;
+    width: auto ;
+    height: 290px ;
+    padding: 5px ;
+    border-radius:10px ;
+    margin-left:390px ;
+    margin-top: 50px;
+    position: absolute;
+    z-index: 2;
+
+}
+#box3
+{
+    background: cyan;
+    width: auto ;
+    height: 290px ;
+    padding: 5px ;
+    border-radius:10px ;
+    margin-left:530px ;
+    margin-top:50px;
+    position: absolute;
+    z-index: 3;
+
+}
+#box4
+{
+    background: cyan;
+    width: 200px ;
+    height: 290px ;
+    padding: 5px ;
+    border-radius:10px ;
+    margin-left:670px ;
+    margin-top:50px;
+    position: absolute;
+    z-index: 3;
+}
+#box5
+{
+    background: cyan;
+    width: 200px ;
+    height: 290px ;
+    padding: 5px ;
+    border-radius:10px ;
+    margin-left:250px ;
+    margin-top: 500px;
+    position: absolute;
+    z-index: 1;
+}
+#box6
+{
+    background: cyan;
+    width: 200px ;
+    height: 290px ;
+    padding: 5px ;
+    border-radius:10px ;
+    margin-left:390px ;
+    margin-top: 500px;
+    position: absolute;
+    z-index: 2;
+
+}
+#box7
+{
+    background: cyan;
+    width: 200px ;
+    height: 290px ;
+    padding: 5px ;
+    border-radius:10px ;
+    margin-left:530px ;
+    margin-top:500px;
+    position: absolute;
+    z-index: 3;
+}
+#box8
+{
+    background: cyan;
+    width: 200px ;
+    height: 290px ;
+    padding: 5px ;
+    border-radius:10px ;
+    margin-left:670px ;
+    margin-top:500px;
+    position: absolute;
+    z-index: 3;
+}
+#box1:hover
+{
+    transform:scale3d(1,1.1,2) ;
+    transform: translate(-70px);
+    transition: transform 1s ease .3s, opacity .2s ease .5s;
+}
+#box2:hover
+{
+    transform:scale3d(1,1.1,2) ;
+    transform: translate(-70px);
+    transition: transform 1s ease .3s, opacity .2s ease .5s;
+}
+#box3:hover
+{
+    transform:scale3d(1,1.1,2) ;
+    transform: translate(-70px);
+
+    transition: transform 1s ease .3s, opacity .2s ease .5s;
+}
+#box4:hover
+{
+    transform:scale3d(1,1.1,2) ;
+
+    transition: transform 1s ease 0s, opacity .2s ease 0s;
+}
+#box5:hover
+{
+    transform:scale3d(1,1.1,2) ;
+    transform: translate(-70px);
+    transition: transform 1s ease .3s, opacity .2s ease .5s;
+}
+#box6:hover
+{
+    transform:scale3d(1,1.1,2) ;
+    transform: translate(-70px);
+    transition: transform 1s ease .3s, opacity .2s ease .5s;
+}
+#box7:hover
+{
+    transform:scale3d(1,1.1,2) ;
+    transform: translate(-70px);
+
+    transition: transform 1s ease .3s, opacity .2s ease .5s;
+}
+#box8:hover
+{
+    transform:scale3d(1,1.1,2) ;
+
+    transition: transform 1s ease 0s, opacity .2s ease 0s;
+}
+.nav1
+{
+    float: right;
+    width: 100px;
+    background: slategray;
+    height: 1000px;
+    border:2px solid red ;
+    display: block;
+}
+.nav1,h1
+{
+    text-align: right;
+    padding: 10px;
+    margin-top: 5px;
+    color:  #333333;
+  
+}
+.nav2{
+    float: left;
+    width: 220px;
+    background: slategray;
+    color:  #333333;
+    height: 1000px;
+    margin-top: 4px;
+    border: 1px solid cyan;
+}
+#girl
+{
+    padding: 5px;
+    margin: 5px;
+    margin-top:160px ;
+}
+#boy
+{
+    padding: 10px;
+    margin-top: 20px
+    
+}
+p
+{
+    text-align:right;
+    font-weight: bold;
+}
+@media (min-width:100px)and(max-width:700)
+{
+   body
+    {
+        width: 200px;
+    }
+}

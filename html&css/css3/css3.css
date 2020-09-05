@@ -1,0 +1,112 @@
+/*body
+{
+    margin: 0;
+    padding: 0;
+    background: #262626;
+}
+h1
+{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 8em;
+    font-family: sans-serif;
+    background: linear-gradient(to right, #f32170, #ffeb07, #2196f3, #ff00eb);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    text-shadow: 0 0 2px rgba(0,0,0,.5);
+}*/
+/*div
+{
+    background: wheat;
+    padding: 5px ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 1px solid red;
+    width:200px;
+    white-space: nowrap;/*للزم يبقي فيه مسافات بين الكلمات علشان تقدر تكسر الكلمه  د يعكس word warb*/
+    /*word-wrap: break-word;/*دي عكس اللي فوق لانها بتعمل كسر لاي حاجه دون الحاجه الي مسافات ولا يمكن الاتنين مع بعض*/
+    /*text-overflow: ellipsis;
+    height: 100px;
+}*/
+.all
+{
+    width:700px;
+    height: 500px;
+    border:2px solid hotpink;
+    
+}
+
+#box1
+{
+    background: green;
+    width: 200px ;
+    height: 290px ;
+    padding: 5px ;
+    border-radius:10px ;
+    margin-left:170px ;
+    margin-top: 50px;
+    position: absolute;
+    z-index: 1;
+}
+
+#box2
+{
+    background: blue;
+    width: 200px ;
+    height: 290px ;
+    padding: 5px ;
+    border-radius:10px ;
+    margin-left:310px ;
+    margin-top: 50px;
+    position: absolute;
+    z-index: 2;
+
+}
+
+#box3
+{
+    background: red;
+    width: 200px ;
+    height: 290px ;
+    padding: 5px ;
+    border-radius:10px ;
+    margin-left:460px ;
+    margin-top:50px;
+    position: absolute;
+z-index: 3;
+
+}
+#box1:hover
+{
+    transform:scale3d(1,1.1,2) ;
+    transform: translate(-70px);
+    transition: transform 1s ease .3s, opacity .2s ease .5s;
+}
+#box2:hover
+{
+    transform:scale3d(1,1.1,2) ;
+    transform: translate(-70px);
+    transition: transform 1s ease .3s, opacity .2s ease .5s;
+}
+#box3:hover
+{
+    transform:scale3d(1,1.1,2) ;
+    transform: translate(-70px);
+
+    transition: transform 1s ease .3s, opacity .2s ease .5s;
+}
+img{
+    transition: all 2s;
+
+}
+img:hover{
+    transform: matrix(-1,0,0,1,0,0);
+}
+
+.mohammed{
+    text-align:ltr;
+}

@@ -1,0 +1,201 @@
+*
+{
+    box-sizing: border-box;
+}
+
+body{
+    background-image:url("very-large-flamingo.png"),url("shoot_n_design_71270_unsplash_LB.png");
+    background-repeat: no-repeat,no-repeat;
+    background-attachment:scroll,fixed ;
+    perspective: 600px;
+}
+.all
+{
+    width: 1100px;
+    height:900px;
+    padding:10px;
+    margin: 10px;
+
+}
+
+
+.dif
+{
+    width: 811px;
+    height: 50px;
+}
+.dif{
+    font-size:8em;
+}
+
+
+.dif1
+{
+    background:wheat ;
+    border: 1px solid yellow;
+    width: 100px;
+    height: 100px;
+    margin: 50px;
+    float: left;
+    padding: 2px ;
+    /*transform: rotate(40deg);  علشان تلف العنصر بدرجه 40 درجه وتقبل سوالب */
+    transition:all 1.7s;
+    text-align: center;
+}
+
+
+.rotata
+{
+    background:wheat ;
+    border: 1px solid yellow;
+    width: 100px;
+    height: 100px;
+    margin: 50px;
+    float: left;
+    padding: 2px ;
+    /*transform: rotate(40deg);  علشان تلف العنصر بدرجه 40 درجه وتقبل سوالب */
+    transition:all 1.7s;
+    text-align: center;
+
+
+}
+
+
+.scale
+{
+    float: left;
+    background:wheat ;
+    border: 1px solid yellow;
+    width: 100px;
+    height: 100px;
+    margin: 50px;
+    padding: 2px;
+    /*transform: scale(width,height);بتلف العنصر حسب الدرجه */
+    transition:all 1.7s;
+    text-align: center;
+
+}
+
+
+.translate
+{
+    float: left;
+    background:wheat ;
+    border: 1px solid yellow;
+    width: 100px;
+    height: 100px;
+    margin: 50px;
+    padding: 2px;
+    text-align: center;
+    transition:all 1.7s;
+    /*tarnsform:translate(10px,10px)دي بتحرك الدف مش بتمدده */
+}
+
+
+.matrix
+{
+    float: left;
+    background:wheat ;
+    border: 1px solid yellow;
+    width: 100px;
+    height: 100px;
+    margin: 50px;
+    padding: 2px;
+    text-align: center;
+    transition:all 1.7s;
+    /*transform:matrix(a,b,c,d,x,y);
+      transform:matrix( scale[x] , skew[y] , skew[x] , scale[y] , translte[x] , translate[y] ) */
+}
+
+
+.skew
+{
+    float: left;
+    background:wheat ;
+    border: 1px solid yellow;
+    width: 100px;
+    height: 100px;
+    margin: 50px;
+    padding: 2px;
+    text-align: center;
+    transition:all 1.7s;
+    /*transform: skew(-10deg,10deg); دي تقبل درجات وعلشان تبقي زي الرتوت لازم تحط القيمتين عكس بعضوهو هوا زي الروتوت */
+}
+
+
+.rotata3d
+{
+    float: left;
+    background:wheat ;
+    border: 1px solid yellow;
+    width: 100px;
+    height: 100px;
+    margin: 50px;
+    padding: 2px;
+    text-align: center;
+    transition:all 1.7s;
+}
+
+.translate3d{
+    float: left;
+    background:wheat ;
+    border: 1px solid yellow;
+    width: 100px;
+    height: 100px;
+    margin: 50px;
+    padding: 2px;
+    text-align: center;
+    transition:all 1.7s;
+}
+
+
+.rotata:hover{
+    transform: rotate(40deg);
+    /*transform: rotate(40deg);  علشان تلف العنصر بدرجه 40 درجه وتقبل سوالب */
+}
+
+
+.scale:hover{
+    transform: scale(2,2 );
+    /*transform: scale(width,height); بتعمل تمديد للطول والعرض   */
+}
+
+
+.translate:hover
+{
+    transform: translate(10px,10px);
+    /*tarnsform:translate(10px,10px)دي بتحرك الدف مش بتمدد بتقبل السوالب  */
+
+}
+
+
+.skew:hover{
+    transform: skew(-10deg,10deg);
+}
+
+.matrix:hover{
+    /*transform:matrix(scale , skew, skew , translate)*/
+    transform: matrix(-1,0,0,1,0,0);
+    /*ده بيعمل كل اللي فوق من هنا */
+}
+
+
+.rotata3d:hover
+{
+    transform: rotateX(180deg);
+}
+
+
+.translate3d:hover{
+    /*transform:translate3d(x,y,z)*/
+    transform:translateZ(100px)
+}
+
+
+
+
+
+
+
+
+
